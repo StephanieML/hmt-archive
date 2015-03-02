@@ -3,4 +3,8 @@ layout: page
 title: HMT archive
 ---
 
-Where everything gets integrated.
+This repository is where everything in the Homer Multitext project  is integrated, and prepared for publication.
+
+See a [specification of how the archive operates](specs/hmt/Hmt.html).
+
+
