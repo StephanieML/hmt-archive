@@ -30,6 +30,8 @@ Work on the next publication is in a development branch.  The next release, `201
 - `publisher`:  a build system that collects archival material in zip files, and publishes them to a nexus repository.
 
 
+See more information about [how a publishable release is assembled](building).
+
 
 ## Other ##
 
