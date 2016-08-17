@@ -9,9 +9,9 @@ The repository includes a gradle build system for assembling packages of publish
 
 ## Versions and branches
 
-The master branch always has the most recent *published* release of the archive (currently, `2014-1`).
+The master branch normally maintains the most recent *published* release of the archive (currently, `2014-1`).  Work on the next publication is normally in a development branch.  
 
-Work on the next publication is in a development branch.  The next release, `2015-1`, is expected to be published in summer, 2015.
+The next release is planned for August, 2016 (edition `2016.1`), and material for that release is now in the master branch of the repository.
 
 ## Organization of subprojects and subdirectories ##
 
@@ -24,7 +24,7 @@ Work on the next publication is in a development branch.  The next release, `201
 
 
 - `hmtmgr`:  a code library for assembling the various individual components (such as book-by-book editions of different versions of the *Iliad*) into composite objects (such as a complete edition of one version of the *Iliad*).
-- `ctsbldr` and `citebldr`:  build systems using the library in `hmtmgr` to construct a set of generic CITE repositories that can be managed with the [CITE Manager library](http://cite-architecture.github.io/citemgr/).
+- `ctsbldr` and `citebldr`:  build systems constructing a set of generic CITE repositories that can be managed with the [CITE Manager library](http://cite-architecture.github.io/citemgr/).
 - `textmgr`: a build system for analyzing the contents of the CTS repository created by `ctsbldr`.  
 - `graphs`:  a build system for unifying CITE and CTS repositories in an RDF graph.
 - `publisher`:  a build system that collects archival material in zip files, and publishes them to a nexus repository.

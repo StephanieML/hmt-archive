@@ -5,7 +5,7 @@ layout: page
 
 ## Building the RDF graph ##
 
-`:graph:ttl` combines separate RDF graphs generated for 
+`:graph:ttl` combines separate RDF graphs generated for
 
 - texts (`graph:ctsttl`)
 - structured data collections (`graph:ccttl`)
@@ -24,5 +24,9 @@ layout: page
 
 ## Packaging other data sets ##
 
+TBA
+
 
 ## Publication as maven artifacts
+
+TBA
